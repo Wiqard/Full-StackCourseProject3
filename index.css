@@ -1,0 +1,128 @@
+.colorProps {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid hsl(175.1, 61.8%, 38.4%);
+}
+.bBColor, body{
+    background-color: hsl(178.2, 90.7%, 21.2%);
+}
+.sBColor, section {
+    background-color: hsl(166.7, 69.2%, 92.4%);
+}
+.tabBordColor {
+    background-color: hsl(175.1, 61.8%, 38.4%);
+}
+.fBordColor {
+    background-color: hsl(175.1, 61.8%, 38.4%);
+}
+.sBordColor {
+    background-color: hsl(175.8, 46.9%, 18.5%);
+}
+.pColor {
+    background-color: hsl(0,0%,10%);
+}
+.tColor {
+    background-color: hsl(0,0%,0%);
+}
+table {
+    margin: 10px auto;
+}
+tbody{
+    border-bottom: none;
+    text-align: left;
+}
+td, th {
+    border-right: 2px solid hsl(175.1, 61.8%, 38.4%);
+    border-bottom: 2px solid hsl(175.1, 61.8%, 38.4%);
+    border-radius: 20%;
+    padding: 20px;
+    box-shadow: 1px 1px 5px hsla(183, 100%, 4%,0.5)  ;
+}
+section {
+    border: 7px solid hsl(175.8, 46.9%, 18.5%);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    width:fit-content;
+    margin: 30px auto;
+}
+th {
+    font-size: 18px;
+    font-weight: bold;
+}
+html{
+    text-align: center;
+}
+body{
+    color: hsl(0,0%,10%);
+    font-family: 'Google Sans Code', 'Times New Roman', monospace;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(0,0%,0%);
+}
+
+.playfair-display {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+.google-sans-code {
+    font-family: 'Google Sans Code', 'Times New Roman', monospace;
+}
+.rock-salt {
+    font-family: 'Rock Salt', 'Times New Roman', cursive;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underlined {
+    text-decoration: underline;
+}
+h1 {
+    font-weight: normal;
+    font-size: 36px;
+    font-family: 'Rock Salt', 'Times New Roman', cursive;
+}
+h2 {
+    font-weight: normal;
+    font-size: 28px;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav ul{
+    margin: 60px auto;
+    width:fit-content;
+
+}
+nav li{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+nav a{
+    margin-right: 15px;
+    padding: 20px;
+    box-shadow: 3px 5px 20px hsl(0, 0%, 0%);
+    background-color: hsl(166.7, 69.2%, 92.4%);
+    color: hsl(0,0%,0%);
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    border-radius: 20px;
+}
+
+nav li a:hover {
+    margin-right: 5px;
+    padding-right: 30px;
+    transition: padding-right 0.5s, margin-right 0.5s;
+    cursor: pointer;
+}
+
+nav li a:active {
+    background-color: hsl(175.8, 46.9%, 12.5%);
+    color: hsl(166.7, 69.2%, 92.4%);
+    box-shadow: 0px 0px 0px;
+}
